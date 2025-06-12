@@ -53,16 +53,17 @@
       <section class="content-section">
 
         <header class="section-header">
-          <h2>Experience</h2>
+          <h2>My CV</h2>
         </header>
 
-        {% for job in site.data.experience %}
+        View and download my CV via this <a href="https://drive.proton.me/urls/9P3TYKRW9C#0eJacJDtHlMz">link</a>
+<!--         {% for job in site.data.experience %}
         <div class="resume-item" itemscope itemprop="worksFor" itemtype="http://schema.org/Organization">
           <h3 class="resume-item-title" itemprop="name">{{ job.company }}</h3>
           <h4 class="resume-item-details" itemprop="description">{{ job.position }} &bull; {{ job.duration }}</h4>
           <p class="resume-item-copy">{{ job.summary }}</p>
-        </div><!-- end of resume-item -->
-        {% endfor %}
+        </div>
+        {% endfor %} -->
 
       </section>
       <!-- end Experience -->
@@ -73,10 +74,10 @@
       <!-- begin Education -->
       <section class="content-section">
         <header class="section-header">
-          <h2>Education</h2>
+          <h2>My LinkedIn</h2>
         </header>
-
-        {% for education in site.data.education %}
+        View my LinkedIn profile via this <a href="https://www.linkedin.com/in/khanhcm/">link</a>
+<!--         {% for education in site.data.education %}
         <div class="resume-item" itemscope itemprop="alumniOf" itemtype="http://schema.org/CollegeOrUniversity">
           <h3 class="resume-item-title" itemprop="name">{{ education.uni }}</h3>
           <h4 class="resume-item-details group" itemprop="description">{{ education.degree }} &bull; {{ education.year }}</h4>
@@ -91,7 +92,7 @@
 
           <p class="resume-item-copy">{{ education.summary }}</p>
         </div>
-        {% endfor %}
+        {% endfor %} -->
       </section>
       <!-- end Education -->
       {% endif %}
@@ -101,17 +102,17 @@
       <!-- begin Projects -->
       <section class="content-section">
         <header class="section-header">
-          <h2>Projects</h2>
+          <h2>Github</h2>
         </header>
-
-        {% for project in site.data.projects %}
+        View my Github profile via this <a href="https://github.com/khanhchauminh">link</a>
+<!--         {% for project in site.data.projects %}
         <div class="resume-item" itemscope itemtype="http://schema.org/CreativeWork">
           <meta itemprop="creator" content="{{ site.resume_name }}" itemtype="http://schema.org/Person" />
           <h3 class="resume-item-title" itemprop="name">{% if project.url %}<a href="{{ project.url }}" itemprop="url">{{ project.project }}</a>{% else %}{{ project.project }}{% endif %}</h3>
           <h4 class="resume-item-details" itemprop="description">{{ project.role }}  &bull; {{ project.duration }}</h4>
           <p class="resume-item-copy">{{ project.description }}</p>
         </div>
-        {% endfor %}
+        {% endfor %} -->
 
       </section>
       <!-- end Projects -->
@@ -122,15 +123,15 @@
       <section class="content-section">
 
         <header class="section-header">
-          <h2>Skills</h2>
+          <h2>Bug Bounty profiles</h2>
         </header>
-        {% for skill in site.data.skills %}
+<!--         {% for skill in site.data.skills %}
         <div class="resume-item">
           <h4 class="resume-item-details">{{ skill.skill }}</h4>
           <p class="resume-item-copy">{{ skill.description }}</p>
         </div>
-        {% endfor %}
-
+        {% endfor %} -->
+        Huntr.dev profle: <a href="https://huntr.com/users/khanhchauminh">link</a>
       </section>
       <!-- end Skills -->
       {% endif %}
@@ -140,23 +141,37 @@
       <section class="content-section">
 
         <header class="section-header">
-          <h2>Recognition</h2>
+          <h2>Hall of Fames</h2>
         </header>
 
-        {% for recognition in site.data.recognitions %}
+<!--         {% for recognition in site.data.recognitions %}
         <div class="resume-item">
           <h3 class="resume-item-title" itemprop="award">{{ recognition.award }}</h3>
           <h4 class="resume-item-details">{{ recognition.organization }} &bull; {{ recognition.year }}</h4>
           <p class="resume-item-copy">{{ recognition.summary }}</p>
         </div>
-        {% endfor %}
-
+        {% endfor %} -->
+      <ul>
+        <li><a href="https://drive.proton.me/urls/1P16XMMFB4#VX6DXVQFHd9B">Certificate of participation in International Cyberbattle SPIEF 2024</a></li>
+        <li><a href="https://cert.europa.eu/hall-of-fame">CERT-EU (15 times)</a></li>
+        <li><a href="https://unite.un.org/content/hall-fame/list">United Nations (4 times)</a></li>
+        <li><a href="https://assurancemaladiesec.github.io/abuse/thanks/">Assurance Maladie</a></li>
+        <li><a href="https://corp.mediatek.com/it-security-acknowledgements">MediaTek</a></li>
+        <li><a href="https://www.bayer.com/en/cybersecurity-hall-of-fame">Bayer AG</a></li>
+        <li><a href="https://psirt.bosch.com/hall-of-fame/websites-hall-of-fame.html">Bosch 2021</a></li>
+        <li>Letter of Appreciation from Swedish Government, NCSC Netherlands</li>
+        <li><a href="https://drive.proton.me/urls/Q92QTH7Z98#GBRCQMz20pvl">Letter of Appreciation from the State Revenue Service of the Republic of Latvia</a></li>
+        <li><a href="https://drive.proton.me/urls/K37Q1JNV7W#eaGnvUl9J4fL">Letter of Appreciation from Latvian CERT (5 times)</a></li>
+        <li><a href="https://drive.proton.me/urls/HHKN4KEV20#tDJJ7LMXW4ay">Certificate of Recognition from U.S. Department of Education</a></li>
+        
+      </ul>
+      
       </section>
       <!-- end Recognition -->
       {% endif %}
 
-      {% if site.resume_section_associations %}
-      <!-- begin Associations -->
+<!--       {% if site.resume_section_associations %}
+
       <section class="content-section">
 
         <header class="section-header">
@@ -172,11 +187,10 @@
         {% endfor %}
 
       </section>
-      <!-- end Associations -->
-      {% endif %}
+      {% endif %} -->
 
-      {% if site.resume_section_interests %}
-      <!-- begin Interests -->
+<!--       {% if site.resume_section_interests %}
+
       <section class="content-section">
 
         <header class="section-header">
@@ -192,8 +206,8 @@
         </div>
 
       </section>
-      <!-- end Interests -->
-      {% endif %}
+
+      {% endif %} -->
 
       {% if site.resume_section_links %}
       <!-- begin Links -->
@@ -202,14 +216,18 @@
         <header class="section-header">
           <h2>Additional Links</h2>
         </header>
+        <ul>
+          <li><a href="https://github.com/khanhchauminh/">My CVE list</a></li>
+          <li><a href="https://github.com/advisories?query=credit%3Akhanhchauminh">My credits on GitHub Advisory</a></li>
 
-        <div class="resume-item">
+        </ul>
+<!--         <div class="resume-item">
           <ul class="resume-item-list">
             {% for link in site.data.links %}
             <li><a href={{ link.url }} itemprop="url">{{ link.description }}</a></li>
             {% endfor %}
           </ul>
-        </div>
+        </div> -->
 
       </section>
       <!-- end Links -->
