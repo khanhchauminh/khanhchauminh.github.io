@@ -11,19 +11,19 @@ sass:
 # Resume settings
 resume_avatar:                  "true"
 resume_name:                    "Chau Minh Khanh"
-resume_title:                   "Penetration Tester | Red Teamer | Security Analyst | Bug Bounty Hunter"
+resume_title:                   "Penetration Tester | Red Teamer | Security Analyst | Security Bug Bounty Hunter"
 
 # used for the contact button in _layouts/resume.html
 resume_contact_email:           "khanhcm@proton.me"
 
 # the next two items are used for schema itemprops in _layouts/resume.html
-resume_contact_telephone:       "Contant"
+resume_contact_telephone:       "Contact"
 resume_contact_address:         "Vietnam"
 
 resume_header_contact_info:     "Vietnam • khanhcm@proton.me"
 display_header_contact_info:    "false"
 
-resume_header_intro: "<p>. 👋 Hi everyone, my name is Chau Minh Khanh.</br></br>I am an experienced Penetration Tester with a demonstrated history of working in the Information Security industry and skilled in Penetration Testing, Vulnerability Assessment and Red Teaming. I am interested in finding and reporting security vulnerabilities through Bug Bounty and Responsible Disclosure Programs. I desire to learn, practice, and develop in-depth skills in the field of information security in a professional environment.</p>"
+resume_header_intro: "<p>👋 Hi everyone, my name is Chau Minh Khanh.</br></br>I am an experienced Security Engineer with a demonstrated history of working in the Information Security industry and skilled in Penetration Testing, Vulnerability Assessment and Red Teaming. I am interested in finding and reporting security vulnerabilities through Bug Bounty and Responsible Disclosure Programs. I desire to learn, practice, and develop in-depth skills in the field of information security in a professional environment.</p>"
 
 # use "yes" to display the email contact button,
 # "no" to display an "I'm not looking for work" message,
