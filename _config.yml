@@ -11,7 +11,7 @@ sass:
 # Resume settings
 resume_avatar:                  "true"
 resume_name:                    "Chau Minh Khanh"
-resume_title:                   "Penetration Tester | Security Analyst | Bug Bounty Hunter"
+resume_title:                   "Penetration Tester | Red Teamer | Security Analyst | Bug Bounty Hunter"
 
 # used for the contact button in _layouts/resume.html
 resume_contact_email:           "khanhcm@proton.me"
@@ -23,13 +23,13 @@ resume_contact_address:         "Vietnam"
 resume_header_contact_info:     "Vietnam • khanhcm@proton.me"
 display_header_contact_info:    "false"
 
-resume_header_intro: "<p>This is the executive summary. You should write a few brief, concise, and meaningful sentences about yourself from a professional context, and your immediate career goals. Make the length appropriate for your needs, but keep it brief and concise</p>"
+resume_header_intro: "<p>. 👋 Hi everyone, my name is Chau Minh Khanh.</br></br>I am an experienced Penetration Tester with a demonstrated history of working in the Information Security industry and skilled in Penetration Testing, Vulnerability Assessment and Red Teaming. I am interested in finding and reporting security vulnerabilities through Bug Bounty and Responsible Disclosure Programs. I desire to learn, practice, and develop in-depth skills in the field of information security in a professional environment.</p>"
 
 # use "yes" to display the email contact button,
 # "no" to display an "I'm not looking for work" message,
 # or remove the resume_looking_for_work option entirely
 # to leave blank
-resume_looking_for_work:        "no"
+# resume_looking_for_work:        "no"
 
 # Decide which sections to use
 # comment out to hide
